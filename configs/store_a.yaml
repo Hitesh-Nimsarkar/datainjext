@@ -1,7 +1,7 @@
 store: store_a
-raw_path: /mnt/raw/store_a/products/
+raw_path: /Volumes/main/retail/product_files/store_a.csv
 file_format: csv
-target_table: retail_data.products
+target_table: main.retail_data.products
 schema_mode: evolve
 column_mappings:
   item_id: product_id
