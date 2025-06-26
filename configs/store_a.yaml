@@ -1,0 +1,11 @@
+store: store_a
+raw_path: /mnt/raw/store_a/products/
+file_format: csv
+target_table: retail_data.products
+schema_mode: evolve
+column_mappings:
+  item_id: product_id
+  cost_price: price
+  item_desc: description
+rules:
+  drop_nulls: [item_id]
